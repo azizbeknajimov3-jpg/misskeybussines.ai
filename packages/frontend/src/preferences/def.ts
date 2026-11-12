@@ -330,9 +330,6 @@ export const PREF_DEF = definePreferences({
 	notificationStackAxis: {
 		default: 'horizontal' as 'vertical' | 'horizontal',
 	},
-	enableCondensedLine: {
-		default: true,
-	},
 	keepScreenOn: {
 		default: false,
 	},
@@ -347,6 +344,9 @@ export const PREF_DEF = definePreferences({
 			disableUrlPreview: false,
 			code: false,
 		} as DataSaverStore,
+	},
+	autoplayEmbededPlayerOfUrlPreview: {
+		default: true,
 	},
 	hemisphere: {
 		default: hemisphere as 'N' | 'S',
